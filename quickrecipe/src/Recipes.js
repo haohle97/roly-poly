@@ -9,7 +9,7 @@ const Recipe = ({title, calories, image, ingredients}) => {
                 {ingredients.map(ingredient =>(
                     <li>{ingredient.text}</li>
                 ))}
-            <p>{calories}</p>
+            <p>Total calories: {calories.toFixed()}. Suitable for {(calories/1000).toFixed()} meals.</p>
             <img src={image} alt=""/>
         </div>
     );
