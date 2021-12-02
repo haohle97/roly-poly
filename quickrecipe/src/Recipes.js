@@ -10,7 +10,7 @@ const Recipe = ({title, calories, image, ingredients}) => {
                     <li>{ingredient.text}</li>
                 ))}
             <p>Total calories: {calories.toFixed()}. Suitable for {(calories/1000).toFixed()} meals.</p>
-            <img src={image} alt=""/>
+            <img src={image} alt="" align = "center"/>
         </div>
     );
 };
