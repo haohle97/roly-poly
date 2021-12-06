@@ -23,13 +23,6 @@
   color: white;
 }
 
-.about-button{
-  background:linear-gradient(to right, #ff0845 0%, #fa93ad 100%);;
-  border: none;
-  padding: 10px 20px;
-  color: white;
-  display: flex;
-}
 
 .recipes{
   display: flex;

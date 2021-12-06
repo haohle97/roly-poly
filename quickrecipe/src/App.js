@@ -34,11 +34,12 @@ const App = () => {
 
   return(
     <div className="App">
+    
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" placeholder = "Search by recipe or ingredient."type="text" search={search} onChange={updateSearch} />
         <button className="search-button" type="submit">Search</button>
-        <button className="about-button" type ="submit-button">About us</button>
-      </form>
+       
+       </form>
       <div className="recipes">
         {recipes.map(recipe => (
           <Recipe
